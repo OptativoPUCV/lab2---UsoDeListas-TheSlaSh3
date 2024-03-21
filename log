@@ -32,3 +32,14 @@ Wed 20 Mar 2024 09:11:38 PM UTC:
  tests:  2|3
 total_score: 20/70
 3282d4f
+Thu 21 Mar 2024 08:33:54 PM UTC: 
+ exercises.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘eliminaElementos’:
+exercises.c:84:7: error: unused variable ‘talla’ [-Werror=unused-variable]
+   84 |   int talla = get_size(L);
+      |       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+4eb5d13
