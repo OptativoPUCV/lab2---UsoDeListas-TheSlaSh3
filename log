@@ -60,3 +60,9 @@ exercises.c:111:20: error: ‘PilaAuxiliar’ is used uninitialized [-Werror=uni
 cc1: all warnings being treated as errors
 Compilation failed
 48dbf89
+Thu 21 Mar 2024 08:59:41 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|2
+total_score: 40/70
+1ef723f
