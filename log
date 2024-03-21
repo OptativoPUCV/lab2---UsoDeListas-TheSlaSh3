@@ -66,3 +66,21 @@ Thu 21 Mar 2024 08:59:41 PM UTC:
  tests:  3|2
 total_score: 40/70
 1ef723f
+Thu 21 Mar 2024 09:00:20 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘copia_pila’:
+exercises.c:106:14: error: passing argument 1 of ‘top’ from incompatible pointer type [-Werror=incompatible-pointer-types]
+  106 |   while (top(elemento) != NULL)
+      |              ^~~~~~~~
+      |              |
+      |              int *
+In file included from exercises.c:7,
+                 from test.c:5:
+stack.h:14:18: note: expected ‘Stack *’ {aka ‘List *’} but argument is of type ‘int *’
+   14 | void *top(Stack *stack) { return first(stack); }
+      |           ~~~~~~~^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+702fbfb
