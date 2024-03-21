@@ -43,3 +43,9 @@ exercises.c:84:7: error: unused variable ‘talla’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 4eb5d13
+Thu 21 Mar 2024 08:34:02 PM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  3|2
+total_score: 40/70
+8b9cebe

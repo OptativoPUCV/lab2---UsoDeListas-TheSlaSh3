@@ -81,7 +81,6 @@ posiciona en el elemento anterior.
 
 void eliminaElementos(List*L, int elem)
 {
-  int talla = get_size(L);
   int *elemento = first(L);
   while (elemento != NULL)
     {
