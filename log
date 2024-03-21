@@ -49,3 +49,14 @@ Thu 21 Mar 2024 08:34:02 PM UTC:
  tests:  3|2
 total_score: 40/70
 8b9cebe
+Thu 21 Mar 2024 08:59:00 PM UTC: 
+ exercises.c | 18 +++++++++++++++++-
+ 1 file changed, 17 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+test.c: In function ‘copia_pila’:
+exercises.c:111:20: error: ‘PilaAuxiliar’ is used uninitialized [-Werror=uninitialized]
+  111 |   int *elemento2 = top(PilaAuxiliar);
+      |                    ^~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+48dbf89
